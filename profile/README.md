@@ -82,13 +82,3 @@ Increment rules:
 - PATCH version when you make backward-compatible bug fixes.
 
 When releasing, include a short changelog entry that explains the user-facing impact.
-
----
-
-If you'd like, I can also:
-
-- add a CONTRIBUTING section with a PR template link,
-- add GitHub Actions workflow examples for commit linting and release tagging,
-- or convert this to an `README.md` at the org level and add a small badge summary.
-
-
