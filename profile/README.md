@@ -1,28 +1,18 @@
-# Eagle Tele-Services – Engineering Standards
+# Eagle Tele-Services – GitHub Profile
 
-## Git & PR Standards
+Welcome to the official GitHub organization for **Eagle Tele-Services**, a nationwide call center and technology partner supporting the commercial trucking and roadside assistance industry.
 
-- All code changes must go through a **pull request**.
-- At least **one approval** is required before merging.
-- **Self-approval is allowed**, but a PR and review step are always required.
-- Direct pushes to protected branches (e.g., `main`) are disabled.
+We use this space to manage and document our internal software tools, automation pipelines, and developer processes.
+
+> Most of our repositories are private and support in-house operations.  
+> This page outlines shared engineering practices for our team and collaborators.
+
+For more about us, visit [https://etsdispatch.biz](https://etsdispatch.biz)  
+Interested in working with us? Reach out at [tech@etsdispatch.biz](mailto:tech@etsdispatch.biz)
 
 ---
 
-## Commit Message Format – Conventional Commits
-
-We follow the [Conventional Commits](https://www.conventionalcommits.org/) standard.
-
-Example formats:
-```
-
-feat: add API support for X
-fix: correct error when user inputs Y
-chore: clean up unused code
-
-```
-Common prefixes:
-# Eagle Tele-Services — Engineering Standards
+# Engineering Standards
 
 This document captures the core engineering standards used across Eagle Tele-Services repositories. It covers Git/PR expectations, commit message formats, and versioning rules. Link this file from organization or repository READMEs to make the rules easy to find.
 
