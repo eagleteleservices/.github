@@ -17,9 +17,7 @@ Example formats:
 ```
 
 feat: add API support for X
-
 fix: correct error when user inputs Y
-
 chore: clean up unused code
 
 ```
