@@ -7,8 +7,8 @@ We use this space to manage and document our internal software tools, automation
 > Most of our repositories are private and support in-house operations.  
 > This page outlines shared engineering practices for our team and collaborators.
 
-For more about us, visit [https://etsdispatch.biz](https://etsdispatch.biz)  
-Interested in working with us? Reach out at [tech@etsdispatch.biz](mailto:tech@etsdispatch.biz)
+For more about us, visit [https://eagleteleservices.biz](https://eagleteleservices.biz)  
+Interested in working with us? Reach out at [https://eagleteleservices.biz/careers.html](https://eagleteleservices.biz/careers.html)
 
 ---
 
@@ -18,13 +18,13 @@ This document captures the core engineering standards used across Eagle Tele-Ser
 
 ## Table of contents
 
-- [Git & PR Standards](#git--pr-standards)
-- [Commit message format — Conventional Commits](#commit-message-format---conventional-commits)
-- [Versioning — Semantic Versioning](#versioning---semantic-versioning)
+- [Git and PR Standards](#git-and-pr-standards)
+- [Commit Message Format – Conventional Commits](#commit-message-format--conventional-commits)
+- [Versioning – Semantic Versioning](#versioning--semantic-versioning)
 
 ---
 
-## Git & PR Standards
+## Git and PR Standards
 
 - All code changes must go through a **pull request (PR)**.
 - At least **one approval** is required before merging.
