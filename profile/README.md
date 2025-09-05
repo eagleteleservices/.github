@@ -62,7 +62,7 @@ This helps us maintain stability across environments and simplify rollbacks if n
 
 ---
 
-# Branch Naming Standards
+## Branch Naming Standards
 
 To maintain clarity and consistency across all repositories, please follow this naming convention when creating branches:
 
