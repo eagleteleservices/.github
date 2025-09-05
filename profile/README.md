@@ -23,6 +23,7 @@ This document captures the core engineering standards used across Eagle Tele-Ser
 - [Branch Naming Standards](#branch-naming-standards)
 - [Commit Message Format – Conventional Commits](#commit-message-format--conventional-commits)
 - [Versioning – Semantic Versioning](#versioning--semantic-versioning)
+- [Ruleset Configuration](#ruleset-configuration)
 
 ---
 
@@ -157,6 +158,21 @@ Increment rules:
 - PATCH version when you make backward-compatible bug fixes.
 
 When releasing, include a short changelog entry that explains the user-facing impact.
+
+---
+
+### Ruleset Configuration
+
+We maintain our branch protection policies using a version-controlled ruleset file:
+
+**Ruleset File:** [`rulesets/one-ruleset-to-rule-them-all.json`](../rulesets/one-ruleset-to-rule-them-all.json)
+
+This JSON file can be imported into GitHub via CLI or API to enforce consistent policies across repositories.
+
+Note: This file is not auto-enforced — it serves as a reusable source of truth and must be explicitly applied.
+
+For more information, see the official GitHub repository:
+[github.com/github/ruleset-recipes](https://github.com/github/ruleset-recipes)
 
 ---
 
