@@ -12,13 +12,14 @@ Interested in working with us? Reach out at [https://eagleteleservices.biz/caree
 
 ---
 
-# Engineering Standards
+## Engineering Standards
 
-This document captures the core engineering standards used across Eagle Tele-Services repositories. It covers Git/PR expectations, commit message formats, and versioning rules. Link this file from organization or repository READMEs to make the rules easy to find.
+This document captures the core engineering standards used across Eagle Tele-Services repositories. It covers Git/PR expectations, commit message formats, and versioning rules. Link this file from organization-level or repository-level READMEs to ensure these standards are easy to find.
 
 ## Table of contents
 
 - [Git and PR Standards](#git-and-pr-standards)
+- [Branch Naming Standards](#branch-naming-standards)
 - [Commit Message Format – Conventional Commits](#commit-message-format--conventional-commits)
 - [Versioning – Semantic Versioning](#versioning--semantic-versioning)
 
@@ -35,6 +36,57 @@ Notes:
 
 - Open a PR for feature work, bug fixes, and configuration changes that affect more than one person.
 - Include a short description of the change, testing performed, and any rollout/rollback considerations in the PR body.
+
+---
+
+# Branch Naming Standards
+
+To maintain clarity and consistency across all repositories, please follow this naming convention when creating branches:
+
+```
+<type>/<short-description>
+```
+
+## 🔹 Types
+
+Use one of the following conventional prefixes:
+
+- `feat` — A new feature
+- `fix` — A bug fix
+- `chore` — Non-production changes (e.g., cleanup, tooling)
+- `docs` — Documentation-only changes
+- `refactor` — Code change that neither fixes a bug nor adds a feature
+- `test` — Adding or updating tests
+- `ci` — Changes to CI/CD configuration or automation
+
+## 🔹 Format
+
+- Use **lowercase**
+- Separate words in the description using **hyphens**
+- Be concise and descriptive
+
+## ✅ Examples
+
+```
+feat/add-user-auth
+fix/timeout-error
+chore/remove-deprecated-scripts
+docs/update-api-docs
+refactor/optimize-query-handling
+test/add-integration-tests
+ci/update-github-actions
+```
+
+## 📌 Why It Matters
+
+Consistent branch naming makes it easier to:
+
+- Track work in progress
+- Link branches to pull requests and issues
+- Navigate repos with many contributors
+- Improve automation workflows
+
+> Adopted in alignment with our [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and Git standards.
 
 ---
 
