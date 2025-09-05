@@ -19,6 +19,7 @@ This document captures the core engineering standards used across Eagle Tele-Ser
 ## Table of contents
 
 - [Git and PR Standards](#git-and-pr-standards)
+- [Branching Strategy — GitFlow with Environments](#branching-strategy--gitflow-with-environments)
 - [Branch Naming Standards](#branch-naming-standards)
 - [Commit Message Format – Conventional Commits](#commit-message-format--conventional-commits)
 - [Versioning – Semantic Versioning](#versioning--semantic-versioning)
@@ -36,6 +37,28 @@ Notes:
 
 - Open a PR for feature work, bug fixes, and configuration changes that affect more than one person.
 - Include a short description of the change, testing performed, and any rollout/rollback considerations in the PR body.
+
+---
+
+## Branching Strategy — GitFlow with Environments
+
+We follow a simplified [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/) branching strategy aligned with our environments:
+
+- `dev` → Active development (feature branches merge here)
+- `test` → QA/Staging (validated before production)
+- `prod` → Production-ready code (stable, release-approved)
+
+**Feature branches** should be named by type and topic:
+
+feat/locator-ui
+fix/api-timeout
+
+Merge flow:
+- PR from feature branch → `dev`
+- Promotion via PR from `dev` → `test`, and from `test` → `prod`
+- Each merge should include clear changelogs and testing status
+
+This helps us maintain stability across environments and simplify rollbacks if needed.
 
 ---
 
@@ -134,3 +157,7 @@ Increment rules:
 - PATCH version when you make backward-compatible bug fixes.
 
 When releasing, include a short changelog entry that explains the user-facing impact.
+
+---
+
+This document as well as our standards are a work in progress and will evolve over time
