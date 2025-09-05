@@ -47,7 +47,7 @@ To maintain clarity and consistency across all repositories, please follow this 
 <type>/<short-description>
 ```
 
-## 🔹 Types
+## Types
 
 Use one of the following conventional prefixes:
 
@@ -59,13 +59,13 @@ Use one of the following conventional prefixes:
 - `test` — Adding or updating tests
 - `ci` — Changes to CI/CD configuration or automation
 
-## 🔹 Format
+## Format
 
 - Use **lowercase**
 - Separate words in the description using **hyphens**
 - Be concise and descriptive
 
-## ✅ Examples
+## Examples
 
 ```
 feat/add-user-auth
@@ -77,7 +77,7 @@ test/add-integration-tests
 ci/update-github-actions
 ```
 
-## 📌 Why It Matters
+## Why It Matters
 
 Consistent branch naming makes it easier to:
 
