@@ -44,7 +44,7 @@ Notes:
 
 We follow a simplified [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/) branching strategy aligned with our environments:
 
-- `dev` → Active development (feature branches merge here)
+- `dev` → Default Branch/Active development (feature branches merge here)
 - `test` → QA/Staging (validated before production)
 - `prod` → Production-ready code (stable, release-approved)
 
