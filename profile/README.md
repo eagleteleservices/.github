@@ -31,7 +31,6 @@ This document captures the core engineering standards used across Eagle Tele-Ser
 
 - All code changes must go through a **pull request (PR)**.
 - At least **one approval** is required before merging.
-- **Self-approval is allowed**, but a PR and review step are always required.
 - Direct pushes to protected branches (for example, `main`) are disabled.
 
 Notes:
